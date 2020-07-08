@@ -134,13 +134,19 @@ namespace Level1Space
                 if (flag == 4)
             {
                 check++;
-                if (check >= Rezult.Count) return Rezult[0];
+                if (check >= Rezult.Count)
+                {
+                    
+                    return Rezult[0];
+
+                }
                 else return Rezult[Rezult.Count - 1 - check];
             }
 
             if (flag == 5)
             {
                 check--;
+                if (check >= Rezult.Count) check = Rezult.Count - 1;
                 if (check < 0) check = 0;
                 return Rezult[Rezult.Count - 1 - check];
             }
@@ -189,6 +195,7 @@ namespace Level1Space
         //    rezult = BastShoe("4");
         //    Console.WriteLine(rezult);
         //    rezult = BastShoe("4");
+                  
         //    Console.WriteLine(rezult);
         //    rezult = BastShoe("5");
         //    Console.WriteLine(rezult);
@@ -216,7 +223,78 @@ namespace Level1Space
         //    Console.WriteLine(rezult);
         //    rezult = BastShoe("5");
         //    Console.WriteLine(rezult);
-        //    rezult = BastShoe("ettyy");
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    Console.WriteLine(rezult);
+        //    //rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("4");
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
+        //    Console.WriteLine(rezult);
+        //    rezult = BastShoe("5");
         //    Console.WriteLine(rezult);
 
 
